@@ -22,7 +22,7 @@ from keras.utils import to_categorical
 from tensorflow.keras.callbacks import ReduceLROnPlateau
 from tensorflow.keras.layers import Input, Dense, Dropout, BatchNormalization, LSTM
 from tensorflow.keras.models import Model, Sequential
-from tensorflow.keras.optimizers import Adam, AdamW
+from tensorflow.keras.optimizers.legacy import Adam, AdamW
 from tensorflow.keras.regularizers import l2
 from tensorflow.keras.metrics import Recall
 
